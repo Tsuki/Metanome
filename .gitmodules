@@ -1,4 +1,5 @@
 [submodule "frontend/src"]
 	path = frontend/src
 	url = https://github.com/HPI-Information-Systems/Metanome-Frontend.git
-	branch = test_merge
+  branch = test_merge
+  ignore = dirty
