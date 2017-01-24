@@ -1,7 +1,10 @@
-if [ "$#" -neq 3 ]
+#!/bin/sh
+
+if [ "$#" -ne 3 ]
    then
 
     echo "Usage ./update_submodule <directory> <branch_name> <url>"
+    exit -1
 fi
 
 #Remove Submodule
